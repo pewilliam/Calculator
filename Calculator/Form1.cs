@@ -56,7 +56,7 @@ namespace Calculator
             Button button = (Button)sender;
 
             operationPerformed = button.Text;
-            resultValue = double.Parse(txbResult.Text,, CultureInfo.InvariantCulture);
+            resultValue = double.Parse(txbResult.Text, CultureInfo.InvariantCulture);
             isOperationPerformed = true;
             currentOperationLabel.Text = resultValue + " " + operationPerformed;
         }

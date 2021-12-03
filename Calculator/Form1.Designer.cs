@@ -30,262 +30,299 @@ namespace Calculator
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.seven = new System.Windows.Forms.Button();
+            this.four = new System.Windows.Forms.Button();
+            this.eight = new System.Windows.Forms.Button();
+            this.one = new System.Windows.Forms.Button();
+            this.five = new System.Windows.Forms.Button();
+            this.two = new System.Windows.Forms.Button();
+            this.nine = new System.Windows.Forms.Button();
+            this.six = new System.Windows.Forms.Button();
+            this.three = new System.Windows.Forms.Button();
+            this.sum = new System.Windows.Forms.Button();
+            this.subtraction = new System.Windows.Forms.Button();
+            this.multiplication = new System.Windows.Forms.Button();
+            this.zero = new System.Windows.Forms.Button();
+            this.dotButton = new System.Windows.Forms.Button();
+            this.division = new System.Windows.Forms.Button();
+            this.clearEntryButton = new System.Windows.Forms.Button();
+            this.clearEverythingButton = new System.Windows.Forms.Button();
+            this.equalsButton = new System.Windows.Forms.Button();
             this.txbResult = new System.Windows.Forms.TextBox();
             this.currentOperationLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // seven
             // 
-            this.button1.BackColor = System.Drawing.Color.Turquoise;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(10, 86);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "7";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.NumericButtonClick);
+            this.seven.BackColor = System.Drawing.Color.Turquoise;
+            this.seven.CausesValidation = false;
+            this.seven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.seven.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.seven.Location = new System.Drawing.Point(10, 86);
+            this.seven.Margin = new System.Windows.Forms.Padding(0);
+            this.seven.Name = "seven";
+            this.seven.Size = new System.Drawing.Size(57, 59);
+            this.seven.TabIndex = 0;
+            this.seven.TabStop = false;
+            this.seven.Text = "7";
+            this.seven.UseVisualStyleBackColor = false;
+            this.seven.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button2
+            // four
             // 
-            this.button2.BackColor = System.Drawing.Color.Turquoise;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(10, 151);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 59);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "4";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.NumericButtonClick);
+            this.four.BackColor = System.Drawing.Color.Turquoise;
+            this.four.CausesValidation = false;
+            this.four.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.four.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.four.Location = new System.Drawing.Point(10, 151);
+            this.four.Name = "four";
+            this.four.Size = new System.Drawing.Size(57, 59);
+            this.four.TabIndex = 1;
+            this.four.TabStop = false;
+            this.four.Text = "4";
+            this.four.UseVisualStyleBackColor = false;
+            this.four.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button4
+            // eight
             // 
-            this.button4.BackColor = System.Drawing.Color.Turquoise;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(73, 86);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(57, 59);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "8";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.NumericButtonClick);
+            this.eight.BackColor = System.Drawing.Color.Turquoise;
+            this.eight.CausesValidation = false;
+            this.eight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eight.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.eight.Location = new System.Drawing.Point(73, 86);
+            this.eight.Name = "eight";
+            this.eight.Size = new System.Drawing.Size(57, 59);
+            this.eight.TabIndex = 3;
+            this.eight.TabStop = false;
+            this.eight.Text = "8";
+            this.eight.UseVisualStyleBackColor = false;
+            this.eight.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button3
+            // one
             // 
-            this.button3.BackColor = System.Drawing.Color.Turquoise;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(10, 216);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(57, 59);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "1";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.NumericButtonClick);
+            this.one.BackColor = System.Drawing.Color.Turquoise;
+            this.one.CausesValidation = false;
+            this.one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.one.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.one.Location = new System.Drawing.Point(10, 216);
+            this.one.Name = "one";
+            this.one.Size = new System.Drawing.Size(57, 59);
+            this.one.TabIndex = 4;
+            this.one.TabStop = false;
+            this.one.Text = "1";
+            this.one.UseVisualStyleBackColor = false;
+            this.one.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button5
+            // five
             // 
-            this.button5.BackColor = System.Drawing.Color.Turquoise;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(73, 151);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(57, 59);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.NumericButtonClick);
+            this.five.BackColor = System.Drawing.Color.Turquoise;
+            this.five.CausesValidation = false;
+            this.five.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.five.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.five.Location = new System.Drawing.Point(73, 151);
+            this.five.Name = "five";
+            this.five.Size = new System.Drawing.Size(57, 59);
+            this.five.TabIndex = 5;
+            this.five.TabStop = false;
+            this.five.Text = "5";
+            this.five.UseVisualStyleBackColor = false;
+            this.five.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button6
+            // two
             // 
-            this.button6.BackColor = System.Drawing.Color.Turquoise;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(73, 216);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(57, 59);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "2";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.NumericButtonClick);
+            this.two.BackColor = System.Drawing.Color.Turquoise;
+            this.two.CausesValidation = false;
+            this.two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.two.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.two.Location = new System.Drawing.Point(73, 216);
+            this.two.Name = "two";
+            this.two.Size = new System.Drawing.Size(57, 59);
+            this.two.TabIndex = 6;
+            this.two.TabStop = false;
+            this.two.Text = "2";
+            this.two.UseVisualStyleBackColor = false;
+            this.two.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button7
+            // nine
             // 
-            this.button7.BackColor = System.Drawing.Color.Turquoise;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.Location = new System.Drawing.Point(136, 86);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(57, 59);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "9";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.NumericButtonClick);
+            this.nine.BackColor = System.Drawing.Color.Turquoise;
+            this.nine.CausesValidation = false;
+            this.nine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nine.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nine.Location = new System.Drawing.Point(136, 86);
+            this.nine.Name = "nine";
+            this.nine.Size = new System.Drawing.Size(57, 59);
+            this.nine.TabIndex = 7;
+            this.nine.TabStop = false;
+            this.nine.Text = "9";
+            this.nine.UseVisualStyleBackColor = false;
+            this.nine.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button8
+            // six
             // 
-            this.button8.BackColor = System.Drawing.Color.Turquoise;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.Location = new System.Drawing.Point(136, 151);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(57, 59);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "6";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.NumericButtonClick);
+            this.six.BackColor = System.Drawing.Color.Turquoise;
+            this.six.CausesValidation = false;
+            this.six.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.six.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.six.Location = new System.Drawing.Point(136, 151);
+            this.six.Name = "six";
+            this.six.Size = new System.Drawing.Size(57, 59);
+            this.six.TabIndex = 8;
+            this.six.TabStop = false;
+            this.six.Text = "6";
+            this.six.UseVisualStyleBackColor = false;
+            this.six.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button9
+            // three
             // 
-            this.button9.BackColor = System.Drawing.Color.Turquoise;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.Location = new System.Drawing.Point(136, 216);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(57, 59);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "3";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.NumericButtonClick);
+            this.three.BackColor = System.Drawing.Color.Turquoise;
+            this.three.CausesValidation = false;
+            this.three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.three.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.three.Location = new System.Drawing.Point(136, 216);
+            this.three.Name = "three";
+            this.three.Size = new System.Drawing.Size(57, 59);
+            this.three.TabIndex = 9;
+            this.three.TabStop = false;
+            this.three.Text = "3";
+            this.three.UseVisualStyleBackColor = false;
+            this.three.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button10
+            // sum
             // 
-            this.button10.BackColor = System.Drawing.Color.Turquoise;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button10.Location = new System.Drawing.Point(199, 86);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(57, 59);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "+";
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.OperatorButton);
+            this.sum.BackColor = System.Drawing.Color.Turquoise;
+            this.sum.CausesValidation = false;
+            this.sum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sum.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.sum.Location = new System.Drawing.Point(199, 86);
+            this.sum.Name = "sum";
+            this.sum.Size = new System.Drawing.Size(57, 59);
+            this.sum.TabIndex = 10;
+            this.sum.TabStop = false;
+            this.sum.Text = "+";
+            this.sum.UseVisualStyleBackColor = false;
+            this.sum.Click += new System.EventHandler(this.OperatorButton);
             // 
-            // button11
+            // subtraction
             // 
-            this.button11.BackColor = System.Drawing.Color.Turquoise;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(199, 151);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(57, 59);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "-";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.OperatorButton);
+            this.subtraction.BackColor = System.Drawing.Color.Turquoise;
+            this.subtraction.CausesValidation = false;
+            this.subtraction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.subtraction.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.subtraction.Location = new System.Drawing.Point(199, 151);
+            this.subtraction.Name = "subtraction";
+            this.subtraction.Size = new System.Drawing.Size(57, 59);
+            this.subtraction.TabIndex = 11;
+            this.subtraction.TabStop = false;
+            this.subtraction.Text = "-";
+            this.subtraction.UseVisualStyleBackColor = false;
+            this.subtraction.Click += new System.EventHandler(this.OperatorButton);
             // 
-            // button12
+            // multiplication
             // 
-            this.button12.BackColor = System.Drawing.Color.Turquoise;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(199, 216);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(57, 59);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "*";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.OperatorButton);
+            this.multiplication.BackColor = System.Drawing.Color.Turquoise;
+            this.multiplication.CausesValidation = false;
+            this.multiplication.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.multiplication.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.multiplication.Location = new System.Drawing.Point(199, 216);
+            this.multiplication.Name = "multiplication";
+            this.multiplication.Size = new System.Drawing.Size(57, 59);
+            this.multiplication.TabIndex = 12;
+            this.multiplication.TabStop = false;
+            this.multiplication.Text = "*";
+            this.multiplication.UseVisualStyleBackColor = false;
+            this.multiplication.Click += new System.EventHandler(this.OperatorButton);
             // 
-            // button13
+            // zero
             // 
-            this.button13.BackColor = System.Drawing.Color.Turquoise;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(10, 281);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(120, 59);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "0";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.NumericButtonClick);
+            this.zero.BackColor = System.Drawing.Color.Turquoise;
+            this.zero.CausesValidation = false;
+            this.zero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zero.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.zero.Location = new System.Drawing.Point(10, 281);
+            this.zero.Name = "zero";
+            this.zero.Size = new System.Drawing.Size(120, 59);
+            this.zero.TabIndex = 13;
+            this.zero.TabStop = false;
+            this.zero.Text = "0";
+            this.zero.UseVisualStyleBackColor = false;
+            this.zero.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button14
+            // dotButton
             // 
-            this.button14.BackColor = System.Drawing.Color.Turquoise;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(136, 281);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(57, 59);
-            this.button14.TabIndex = 14;
-            this.button14.Text = ".";
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.NumericButtonClick);
+            this.dotButton.BackColor = System.Drawing.Color.Turquoise;
+            this.dotButton.CausesValidation = false;
+            this.dotButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dotButton.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.dotButton.Location = new System.Drawing.Point(136, 281);
+            this.dotButton.Name = "dotButton";
+            this.dotButton.Size = new System.Drawing.Size(57, 59);
+            this.dotButton.TabIndex = 14;
+            this.dotButton.TabStop = false;
+            this.dotButton.Text = ".";
+            this.dotButton.UseVisualStyleBackColor = false;
+            this.dotButton.Click += new System.EventHandler(this.NumericButtonClick);
             // 
-            // button15
+            // division
             // 
-            this.button15.BackColor = System.Drawing.Color.Turquoise;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(199, 281);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(57, 59);
-            this.button15.TabIndex = 15;
-            this.button15.Text = "/";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.OperatorButton);
+            this.division.BackColor = System.Drawing.Color.Turquoise;
+            this.division.CausesValidation = false;
+            this.division.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.division.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.division.Location = new System.Drawing.Point(199, 281);
+            this.division.Name = "division";
+            this.division.Size = new System.Drawing.Size(57, 59);
+            this.division.TabIndex = 15;
+            this.division.TabStop = false;
+            this.division.Text = "/";
+            this.division.UseVisualStyleBackColor = false;
+            this.division.Click += new System.EventHandler(this.OperatorButton);
             // 
-            // button16
+            // clearEntryButton
             // 
-            this.button16.BackColor = System.Drawing.Color.Turquoise;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button16.Location = new System.Drawing.Point(262, 86);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(57, 59);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "CE";
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.ClearEntry);
+            this.clearEntryButton.BackColor = System.Drawing.Color.Turquoise;
+            this.clearEntryButton.CausesValidation = false;
+            this.clearEntryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearEntryButton.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.clearEntryButton.Location = new System.Drawing.Point(262, 86);
+            this.clearEntryButton.Name = "clearEntryButton";
+            this.clearEntryButton.Size = new System.Drawing.Size(57, 59);
+            this.clearEntryButton.TabIndex = 16;
+            this.clearEntryButton.TabStop = false;
+            this.clearEntryButton.Text = "CE";
+            this.clearEntryButton.UseVisualStyleBackColor = false;
+            this.clearEntryButton.Click += new System.EventHandler(this.ClearEntry);
             // 
-            // button17
+            // clearEverythingButton
             // 
-            this.button17.BackColor = System.Drawing.Color.Turquoise;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button17.Location = new System.Drawing.Point(262, 151);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(57, 59);
-            this.button17.TabIndex = 17;
-            this.button17.Text = "C";
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.ClearButton);
+            this.clearEverythingButton.BackColor = System.Drawing.Color.Turquoise;
+            this.clearEverythingButton.CausesValidation = false;
+            this.clearEverythingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearEverythingButton.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.clearEverythingButton.Location = new System.Drawing.Point(262, 151);
+            this.clearEverythingButton.Name = "clearEverythingButton";
+            this.clearEverythingButton.Size = new System.Drawing.Size(57, 59);
+            this.clearEverythingButton.TabIndex = 17;
+            this.clearEverythingButton.TabStop = false;
+            this.clearEverythingButton.Text = "C";
+            this.clearEverythingButton.UseVisualStyleBackColor = false;
+            this.clearEverythingButton.Click += new System.EventHandler(this.ClearButton);
             // 
-            // button18
+            // equalsButton
             // 
-            this.button18.BackColor = System.Drawing.Color.Turquoise;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button18.Location = new System.Drawing.Point(262, 217);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(57, 123);
-            this.button18.TabIndex = 18;
-            this.button18.Text = "=";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.ResultButton);
+            this.equalsButton.BackColor = System.Drawing.Color.Turquoise;
+            this.equalsButton.CausesValidation = false;
+            this.equalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.equalsButton.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.equalsButton.Location = new System.Drawing.Point(262, 217);
+            this.equalsButton.Name = "equalsButton";
+            this.equalsButton.Size = new System.Drawing.Size(57, 123);
+            this.equalsButton.TabIndex = 18;
+            this.equalsButton.TabStop = false;
+            this.equalsButton.Text = "=";
+            this.equalsButton.UseVisualStyleBackColor = false;
+            this.equalsButton.Click += new System.EventHandler(this.ResultButton);
             // 
             // txbResult
             // 
@@ -297,6 +334,7 @@ namespace Calculator
             this.txbResult.Name = "txbResult";
             this.txbResult.Size = new System.Drawing.Size(309, 54);
             this.txbResult.TabIndex = 19;
+            this.txbResult.TabStop = false;
             this.txbResult.Text = "0";
             this.txbResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -310,38 +348,51 @@ namespace Calculator
             this.currentOperationLabel.Size = new System.Drawing.Size(0, 17);
             this.currentOperationLabel.TabIndex = 20;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.TabIndex = 21;
+            // 
             // Form1
             // 
+            this.AcceptButton = this.equalsButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(329, 352);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.currentOperationLabel);
             this.Controls.Add(this.txbResult);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.equalsButton);
+            this.Controls.Add(this.clearEverythingButton);
+            this.Controls.Add(this.clearEntryButton);
+            this.Controls.Add(this.division);
+            this.Controls.Add(this.dotButton);
+            this.Controls.Add(this.zero);
+            this.Controls.Add(this.multiplication);
+            this.Controls.Add(this.subtraction);
+            this.Controls.Add(this.sum);
+            this.Controls.Add(this.three);
+            this.Controls.Add(this.six);
+            this.Controls.Add(this.nine);
+            this.Controls.Add(this.two);
+            this.Controls.Add(this.five);
+            this.Controls.Add(this.one);
+            this.Controls.Add(this.eight);
+            this.Controls.Add(this.four);
+            this.Controls.Add(this.seven);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -349,26 +400,27 @@ namespace Calculator
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button seven;
+        private System.Windows.Forms.Button four;
+        private System.Windows.Forms.Button eight;
+        private System.Windows.Forms.Button one;
+        private System.Windows.Forms.Button five;
+        private System.Windows.Forms.Button two;
+        private System.Windows.Forms.Button nine;
+        private System.Windows.Forms.Button six;
+        private System.Windows.Forms.Button three;
+        private System.Windows.Forms.Button sum;
+        private System.Windows.Forms.Button subtraction;
+        private System.Windows.Forms.Button multiplication;
+        private System.Windows.Forms.Button zero;
+        private System.Windows.Forms.Button dotButton;
+        private System.Windows.Forms.Button division;
+        private System.Windows.Forms.Button clearEntryButton;
+        private System.Windows.Forms.Button clearEverythingButton;
+        private System.Windows.Forms.Button equalsButton;
         private System.Windows.Forms.TextBox txbResult;
         private System.Windows.Forms.Label currentOperationLabel;
+        private System.Windows.Forms.Label label1;
     }
 }
 
